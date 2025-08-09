@@ -1,5 +1,3 @@
-'use client';
-
 import { useState } from 'react';
 import { DocumentUpload } from '@/components/DocumentUpload';
 import { DocumentSummary } from '@/components/DocumentSummary';
@@ -16,7 +14,7 @@ interface SummaryData {
   importantClauses: string[];
 }
 
-export default function Home() {
+const Index = () => {
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [isAnalyzing, setIsAnalyzing] = useState(false);
   const [summaryData, setSummaryData] = useState<SummaryData | null>(null);
@@ -153,4 +151,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Index;
