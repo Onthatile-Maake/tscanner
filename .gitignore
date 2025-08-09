@@ -12,7 +12,10 @@
 
 # files
 *.csv
+<<<<<<< HEAD
 extracted_ts_and_cs.csv
+=======
+>>>>>>> cc203759734c58c52d3026d7dc29d8d5d20fe3a7
 
 # testing
 /coverage
