@@ -12,6 +12,7 @@
 
 # files
 *.csv
+extracted_ts_and_cs.csv
 
 # testing
 /coverage
